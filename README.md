@@ -28,8 +28,13 @@ node --version
 npm --version
 
 npx bmad-method install
+select the options which you want 
+ Do you want to install custom or community modules (Git URL or local path)? No
+Ready to install (all stable)? Yes
+Next it will ask to select AI coding tool youwant to integrate with choose GitHub Copilot
+If uv not installed 
+put this command -> powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
 
-uv
 uv is used by BMAD build and automation workflows for Python-based tooling.
 
 Verify the installation using:
